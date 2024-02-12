@@ -15,7 +15,7 @@ jobs:
       - uses: Sutil/snk@master
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ github.melisa-erdem }}
           svg_out_path: dist/github-contribution-grid-snake2.svg
           snake_color: 'blue'
 
@@ -26,7 +26,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-- isim: generate-snake-game-from-github-contribution-grid
-kullanım alanları: Platane/snk@v3.2.0
             
   
