@@ -25,4 +25,8 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+- isim: generate-snake-game-from-github-contribution-grid
+kullanım alanları: Platane/snk@v3.2.0
+            
   
